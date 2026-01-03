@@ -22,6 +22,7 @@ export default function Projects() {
               description="Developed a full-featured E-commerce platform using the MERN stack (React.js, Node.js, Express.js, MongoDB) with Redux for state management. Created an admin application for efficient content management and integrated PayPal as a payment gateway supporting Card, UPI, and Net Banking. Features include shopping cart, user profiles, order management, and admin dashboard."
               ghLink="https://github.com/AryanBarsaiyan/MORTOBUY"
               demoLink="https://mortobuy.onrender.com/"
+              priority={true}
             />
           </Col>
 

@@ -38,6 +38,7 @@ export default function About() {
               width={500}
               height={400}
               className="img-fluid"
+              priority
             />
           </Col>
         </Row>

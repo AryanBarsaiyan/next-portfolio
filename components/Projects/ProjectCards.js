@@ -15,6 +15,7 @@ export default function ProjectCards(props) {
           alt="card-img"
           fill
           style={{ objectFit: "contain", borderRadius: "10px", opacity: 0.8 }}
+          priority={props.priority || false}
         />
       </div>
       <Card.Body>
