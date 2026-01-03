@@ -75,6 +75,7 @@ export default function Home2() {
                 width={300}
                 height={300}
                 className="img-fluid"
+                priority
               />
             </motion.div>
           </Col>

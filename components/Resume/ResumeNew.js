@@ -2,19 +2,23 @@
 
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
+import Image from "next/image";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
 
 const resumeLink = () => {
   return (
     <div
-      style={{ maxWidth: "auto", height: "100vh" }}
+      style={{ maxWidth: "auto", height: "100vh", position: "relative" }}
       className="d-flex justify-content-center"
     >
-      <img
+      <Image
         src="/Assets/ur.jpg"
         alt="Resume"
-        style={{ width: "100%", height: "auto", objectFit: "contain" }}
+        fill
+        style={{ objectFit: "contain" }}
+        priority
+        sizes="100vw"
       />
     </div>
   );

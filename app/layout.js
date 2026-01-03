@@ -30,6 +30,9 @@ export default function RootLayout({ children }) {
         <link rel="icon" href="/favicon.png" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000000" />
+        <link rel="preload" href="/Assets/pre.svg" as="image" />
+        <link rel="preload" href="/Assets/home-bg-1.jpg" as="image" />
+        <link rel="preload" href="/Assets/home-main.svg" as="image" />
       </head>
       <body className={inter.className}>
         <ClientLayout>
